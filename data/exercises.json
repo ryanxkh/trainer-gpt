@@ -1,0 +1,332 @@
+{
+  "exercises": [
+    {
+      "id": "chest-1",
+      "name": "Barbell Bench Press",
+      "muscle_group": "chest",
+      "equipment": "barbell",
+      "difficulty_level": "intermediate",
+      "substitutes": ["Dumbbell Bench Press", "Push-ups", "Machine Chest Press"]
+    },
+    {
+      "id": "chest-2",
+      "name": "Incline Barbell Bench Press",
+      "muscle_group": "chest",
+      "equipment": "barbell",
+      "difficulty_level": "intermediate",
+      "substitutes": ["Incline Dumbbell Press", "Incline Machine Press"]
+    },
+    {
+      "id": "chest-3",
+      "name": "Dumbbell Bench Press",
+      "muscle_group": "chest",
+      "equipment": "dumbbell",
+      "difficulty_level": "beginner",
+      "substitutes": ["Barbell Bench Press", "Machine Chest Press"]
+    },
+    {
+      "id": "chest-4",
+      "name": "Incline Dumbbell Press",
+      "muscle_group": "chest",
+      "equipment": "dumbbell",
+      "difficulty_level": "beginner",
+      "substitutes": ["Incline Barbell Press", "Cable Chest Fly"]
+    },
+    {
+      "id": "chest-5",
+      "name": "Cable Chest Fly",
+      "muscle_group": "chest",
+      "equipment": "cable",
+      "difficulty_level": "beginner",
+      "substitutes": ["Dumbbell Fly", "Pec Deck"]
+    },
+    {
+      "id": "chest-6",
+      "name": "Dips (Chest Focus)",
+      "muscle_group": "chest",
+      "equipment": "bodyweight",
+      "difficulty_level": "intermediate",
+      "substitutes": ["Decline Bench Press", "Push-ups"]
+    },
+    {
+      "id": "back-1",
+      "name": "Barbell Row",
+      "muscle_group": "back",
+      "equipment": "barbell",
+      "difficulty_level": "intermediate",
+      "substitutes": ["Dumbbell Row", "Cable Row", "T-Bar Row"]
+    },
+    {
+      "id": "back-2",
+      "name": "Pull-ups",
+      "muscle_group": "back",
+      "equipment": "bodyweight",
+      "difficulty_level": "intermediate",
+      "substitutes": ["Lat Pulldown", "Assisted Pull-ups"]
+    },
+    {
+      "id": "back-3",
+      "name": "Lat Pulldown",
+      "muscle_group": "back",
+      "equipment": "cable",
+      "difficulty_level": "beginner",
+      "substitutes": ["Pull-ups", "Underhand Pulldown"]
+    },
+    {
+      "id": "back-4",
+      "name": "Seated Cable Row",
+      "muscle_group": "back",
+      "equipment": "cable",
+      "difficulty_level": "beginner",
+      "substitutes": ["Barbell Row", "Dumbbell Row", "Machine Row"]
+    },
+    {
+      "id": "back-5",
+      "name": "Dumbbell Row",
+      "muscle_group": "back",
+      "equipment": "dumbbell",
+      "difficulty_level": "beginner",
+      "substitutes": ["Barbell Row", "Cable Row"]
+    },
+    {
+      "id": "back-6",
+      "name": "Deadlift",
+      "muscle_group": "back",
+      "equipment": "barbell",
+      "difficulty_level": "advanced",
+      "substitutes": ["Romanian Deadlift", "Rack Pulls"]
+    },
+    {
+      "id": "shoulders-1",
+      "name": "Overhead Press",
+      "muscle_group": "shoulders",
+      "equipment": "barbell",
+      "difficulty_level": "intermediate",
+      "substitutes": ["Dumbbell Shoulder Press", "Machine Shoulder Press"]
+    },
+    {
+      "id": "shoulders-2",
+      "name": "Dumbbell Shoulder Press",
+      "muscle_group": "shoulders",
+      "equipment": "dumbbell",
+      "difficulty_level": "beginner",
+      "substitutes": ["Overhead Press", "Machine Shoulder Press"]
+    },
+    {
+      "id": "shoulders-3",
+      "name": "Lateral Raise",
+      "muscle_group": "shoulders",
+      "equipment": "dumbbell",
+      "difficulty_level": "beginner",
+      "substitutes": ["Cable Lateral Raise", "Machine Lateral Raise"]
+    },
+    {
+      "id": "shoulders-4",
+      "name": "Face Pull",
+      "muscle_group": "shoulders",
+      "equipment": "cable",
+      "difficulty_level": "beginner",
+      "substitutes": ["Reverse Pec Deck", "Reverse Cable Fly"]
+    },
+    {
+      "id": "shoulders-5",
+      "name": "Front Raise",
+      "muscle_group": "shoulders",
+      "equipment": "dumbbell",
+      "difficulty_level": "beginner",
+      "substitutes": ["Barbell Front Raise", "Cable Front Raise"]
+    },
+    {
+      "id": "quads-1",
+      "name": "Barbell Squat",
+      "muscle_group": "quads",
+      "equipment": "barbell",
+      "difficulty_level": "intermediate",
+      "substitutes": ["Leg Press", "Goblet Squat", "Front Squat"]
+    },
+    {
+      "id": "quads-2",
+      "name": "Front Squat",
+      "muscle_group": "quads",
+      "equipment": "barbell",
+      "difficulty_level": "advanced",
+      "substitutes": ["Barbell Squat", "Hack Squat"]
+    },
+    {
+      "id": "quads-3",
+      "name": "Leg Press",
+      "muscle_group": "quads",
+      "equipment": "machine",
+      "difficulty_level": "beginner",
+      "substitutes": ["Barbell Squat", "Hack Squat"]
+    },
+    {
+      "id": "quads-4",
+      "name": "Leg Extension",
+      "muscle_group": "quads",
+      "equipment": "machine",
+      "difficulty_level": "beginner",
+      "substitutes": ["Sissy Squat", "Spanish Squat"]
+    },
+    {
+      "id": "quads-5",
+      "name": "Bulgarian Split Squat",
+      "muscle_group": "quads",
+      "equipment": "dumbbell",
+      "difficulty_level": "intermediate",
+      "substitutes": ["Lunges", "Step-ups"]
+    },
+    {
+      "id": "hamstrings-1",
+      "name": "Romanian Deadlift",
+      "muscle_group": "hamstrings",
+      "equipment": "barbell",
+      "difficulty_level": "intermediate",
+      "substitutes": ["Dumbbell RDL", "Good Mornings"]
+    },
+    {
+      "id": "hamstrings-2",
+      "name": "Leg Curl",
+      "muscle_group": "hamstrings",
+      "equipment": "machine",
+      "difficulty_level": "beginner",
+      "substitutes": ["Nordic Curls", "Glute Ham Raise"]
+    },
+    {
+      "id": "hamstrings-3",
+      "name": "Nordic Curl",
+      "muscle_group": "hamstrings",
+      "equipment": "bodyweight",
+      "difficulty_level": "advanced",
+      "substitutes": ["Leg Curl", "Slider Curls"]
+    },
+    {
+      "id": "glutes-1",
+      "name": "Hip Thrust",
+      "muscle_group": "glutes",
+      "equipment": "barbell",
+      "difficulty_level": "beginner",
+      "substitutes": ["Glute Bridge", "B-Stance Hip Thrust"]
+    },
+    {
+      "id": "glutes-2",
+      "name": "Bulgarian Split Squat",
+      "muscle_group": "glutes",
+      "equipment": "dumbbell",
+      "difficulty_level": "intermediate",
+      "substitutes": ["Lunges", "Step-ups"]
+    },
+    {
+      "id": "glutes-3",
+      "name": "Cable Pull-Through",
+      "muscle_group": "glutes",
+      "equipment": "cable",
+      "difficulty_level": "beginner",
+      "substitutes": ["Romanian Deadlift", "Kettlebell Swing"]
+    },
+    {
+      "id": "biceps-1",
+      "name": "Barbell Curl",
+      "muscle_group": "biceps",
+      "equipment": "barbell",
+      "difficulty_level": "beginner",
+      "substitutes": ["Dumbbell Curl", "Cable Curl"]
+    },
+    {
+      "id": "biceps-2",
+      "name": "Dumbbell Curl",
+      "muscle_group": "biceps",
+      "equipment": "dumbbell",
+      "difficulty_level": "beginner",
+      "substitutes": ["Barbell Curl", "Hammer Curl"]
+    },
+    {
+      "id": "biceps-3",
+      "name": "Hammer Curl",
+      "muscle_group": "biceps",
+      "equipment": "dumbbell",
+      "difficulty_level": "beginner",
+      "substitutes": ["Rope Curl", "Dumbbell Curl"]
+    },
+    {
+      "id": "biceps-4",
+      "name": "Preacher Curl",
+      "muscle_group": "biceps",
+      "equipment": "barbell",
+      "difficulty_level": "intermediate",
+      "substitutes": ["Cable Curl", "Concentration Curl"]
+    },
+    {
+      "id": "triceps-1",
+      "name": "Close-Grip Bench Press",
+      "muscle_group": "triceps",
+      "equipment": "barbell",
+      "difficulty_level": "intermediate",
+      "substitutes": ["Dips", "Cable Pushdown"]
+    },
+    {
+      "id": "triceps-2",
+      "name": "Dips (Triceps Focus)",
+      "muscle_group": "triceps",
+      "equipment": "bodyweight",
+      "difficulty_level": "intermediate",
+      "substitutes": ["Close-Grip Bench", "Triceps Pushdown"]
+    },
+    {
+      "id": "triceps-3",
+      "name": "Cable Pushdown",
+      "muscle_group": "triceps",
+      "equipment": "cable",
+      "difficulty_level": "beginner",
+      "substitutes": ["Overhead Extension", "Skullcrusher"]
+    },
+    {
+      "id": "triceps-4",
+      "name": "Overhead Triceps Extension",
+      "muscle_group": "triceps",
+      "equipment": "dumbbell",
+      "difficulty_level": "beginner",
+      "substitutes": ["Cable Pushdown", "Skullcrusher"]
+    },
+    {
+      "id": "calves-1",
+      "name": "Standing Calf Raise",
+      "muscle_group": "calves",
+      "equipment": "machine",
+      "difficulty_level": "beginner",
+      "substitutes": ["Seated Calf Raise", "Bodyweight Calf Raise"]
+    },
+    {
+      "id": "calves-2",
+      "name": "Seated Calf Raise",
+      "muscle_group": "calves",
+      "equipment": "machine",
+      "difficulty_level": "beginner",
+      "substitutes": ["Standing Calf Raise", "Donkey Calf Raise"]
+    },
+    {
+      "id": "abs-1",
+      "name": "Cable Crunch",
+      "muscle_group": "abs",
+      "equipment": "cable",
+      "difficulty_level": "beginner",
+      "substitutes": ["Weighted Crunch", "Ab Wheel"]
+    },
+    {
+      "id": "abs-2",
+      "name": "Hanging Leg Raise",
+      "muscle_group": "abs",
+      "equipment": "bodyweight",
+      "difficulty_level": "intermediate",
+      "substitutes": ["Lying Leg Raise", "Knee Raise"]
+    },
+    {
+      "id": "abs-3",
+      "name": "Plank",
+      "muscle_group": "abs",
+      "equipment": "bodyweight",
+      "difficulty_level": "beginner",
+      "substitutes": ["Ab Wheel", "Dead Bug"]
+    }
+  ]
+}
