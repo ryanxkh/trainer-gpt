@@ -59,9 +59,8 @@ async function seedExercises() {
       }
     }
 
-    // Insert exercises
+    // Insert exercises (let Supabase generate UUIDs)
     const exercisesToInsert = exercisesData.exercises.map((ex) => ({
-      id: ex.id,
       name: ex.name,
       muscle_group: ex.muscle_group,
       equipment: ex.equipment,
