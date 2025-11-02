@@ -1,7 +1,7 @@
 import React from 'react';
 
 interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
-  variant?: 'primary' | 'secondary' | 'danger' | 'ghost';
+  variant?: 'primary' | 'secondary' | 'danger' | 'ghost' | 'outline';
   size?: 'sm' | 'md' | 'lg';
   fullWidth?: boolean;
 }
@@ -14,19 +14,20 @@ export function Button({
   className = '',
   ...props
 }: ButtonProps) {
-  const baseStyles = 'font-semibold rounded-lg transition-colors disabled:opacity-50 disabled:cursor-not-allowed';
+  const baseStyles = 'font-bold rounded-xl transition-all duration-300 disabled:opacity-50 disabled:cursor-not-allowed active:scale-95';
 
   const variantStyles = {
-    primary: 'bg-blue-500 text-white hover:bg-blue-600 active:bg-blue-700',
-    secondary: 'bg-gray-200 text-gray-900 hover:bg-gray-300 active:bg-gray-400',
-    danger: 'bg-red-500 text-white hover:bg-red-600 active:bg-red-700',
-    ghost: 'bg-transparent text-blue-500 hover:bg-blue-50 active:bg-blue-100',
+    primary: 'bg-primary-600 text-white hover:bg-primary-700 shadow-lg hover:shadow-glow',
+    secondary: 'bg-dark-800 text-white border-2 border-dark-600 hover:bg-dark-700 hover:border-primary-600/50',
+    danger: 'bg-red-600 text-white hover:bg-red-700 shadow-lg hover:shadow-red-600/30',
+    ghost: 'bg-transparent text-gray-300 hover:bg-dark-800 hover:text-white',
+    outline: 'bg-transparent text-primary-500 border-2 border-primary-600 hover:bg-primary-600 hover:text-white',
   };
 
   const sizeStyles = {
-    sm: 'px-3 py-2 text-sm',
-    md: 'px-4 py-3 text-base',
-    lg: 'px-6 py-4 text-lg',
+    sm: 'px-4 py-2 text-sm min-h-[44px]',
+    md: 'px-6 py-3 text-base min-h-[50px]',
+    lg: 'px-8 py-4 text-lg min-h-[56px]',
   };
 
   const widthStyle = fullWidth ? 'w-full' : '';
